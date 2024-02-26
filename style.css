@@ -1,0 +1,46 @@
+body{background-color: red;
+    margin: 0;
+
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    align-items: center;
+
+    height: 100vh;
+	background-image: url(hebe.avif);
+	background-size: contain;
+	background-attachment: fixed;
+    background-size: cover;
+
+}
+.image2 {
+	height: 100vh;
+	background-image: url(ted-kaczynski-restricted.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.image3{
+
+    height: 100vh;
+    background-image: url(getty_485008244_105123.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.section {
+display: flex   ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
